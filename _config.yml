@@ -8,3 +8,6 @@ url: "http://blog.vidhub.co"
 # Build settings
 markdown: kramdown
 permalink: pretty
+highlighter: pygments
+
+source: _source
