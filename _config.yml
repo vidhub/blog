@@ -1,0 +1,10 @@
+# Site settings
+title: Vidhub Blog
+email: info@vidhub.co
+description: "Video collaboration without 23452345234 emails"
+baseurl: "blog.vidhub.co"
+url: "http://blog.vidhub.co"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
