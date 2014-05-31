@@ -19,14 +19,14 @@ gulp.task('default', function() {
   });
 
   var server = livereload()
-  gulp.watch('_site/**')
+  gulp.watch('_source/**/*')
       .on('change', function(file) {
         server.changed(file.path)
       });
 });
 
 gulp.task('deploy', function() {
-  gulp.src('./_site/**/*')
+  gulp.src('_site/**/*')
       .pipe(deploy({
         remoteUrl: 'https://github.com/vidhub/blog'
       }));
