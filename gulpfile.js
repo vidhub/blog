@@ -27,7 +27,5 @@ gulp.task('default', function() {
 
 gulp.task('deploy', function() {
   gulp.src('_site/**/*')
-      .pipe(deploy({
-        remoteUrl: 'https://github.com/vidhub/blog'
-      }));
+      .pipe(deploy());
 });

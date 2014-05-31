@@ -10,4 +10,5 @@ markdown: kramdown
 permalink: pretty
 highlighter: pygments
 
-source: _source
+source: ./_source
+destination: ./_site
